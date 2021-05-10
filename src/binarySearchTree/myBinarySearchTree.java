@@ -114,9 +114,9 @@ class BinarySearchTree {
 	 public void search(int key) {
 	     
 	     if (checkIfExist(root, key))
-	         System.out.println( key +" exists");
+	         System.out.println( key +" is Present");
 	     else
-	         System.out.println(key + " does not exits");
+	         System.out.println(key + " is not Present");
 		 
 	 }
 	 
